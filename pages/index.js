@@ -541,7 +541,7 @@ export default function Home({ publications }) {
             <div className="container relative flex flex-col items-start justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="w-full">
                 <span className="text-2xl font-semibold text-brand">
-                  Hello! 👋 My name is
+                  Hello! 👋 I&apos;m
                 </span>
 
                 <h1 className="mb-4 text-5xl md:text-7xl dark:text-white text-dark">
@@ -554,13 +554,14 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Full Stack Developer|`,
-                      `Software engineer|`,
+                      `Full Stack Developer`,
+                      `Software engineer`,
+                      `Freelancer`,
                     ]}
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
-                  I design and build websites that look good, and work well.
+                  have been part many projects
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg group"
@@ -588,24 +589,18 @@ export default function Home({ publications }) {
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
                     Hello! I&apos;m Divyansh and I&apos;m a full stack developer,
-                    designer from India.
+                    designer.
                   </p>
-                  <p className="text-lg">
-                    After building my first website aged thirteen, I knew I
-                    wanted to work with computers and technology, and I&apos;ve
-                    never looked back.
-                  </p>
+                  
                   <p className="text-lg">
                   After getting intrested in tech related stuff, I knew I wanted to work with computers and technology.
                   </p>
                   <p className="text-lg">
-                  In recent years, I&apos; ve been focused on programming, building a solid frontend stack and creating exciting real-world projects.
+                  In recent years, I&apos; ve been focused on programming & building. in past years i have been part of some exciting projects.
 
                   </p>
                   <p className="text-lg">
-                  Take a look at my work below to see what I&apos;m working on, and get in touch if you&#39;d like to work together!
-
-
+                    Since been part of many freelance projects
                   </p>
 
 
@@ -1021,7 +1016,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Glu"}
                 status={"Bloging App with Sanity CMS"}
-                description={`Find the perfect palette for your next perfect. pick it, preview it and paste it right into your code.`}
+                description={`Niche blogging application built on next js & sanity CMS`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
@@ -1098,16 +1093,16 @@ export default function Home({ publications }) {
                 }
               />
               {/* Project Three */}
-              {/* <FeaturedProjectCard
-                title={"ProfileMe.dev"}
+              <FeaturedProjectCard
+                title={"Indiemake"}
                 status={"Open Source"}
-                description={`Create an amazing GitHub profile complete with skills icons, stat graphs and more in just a couple of minutes.`}
+                description={`1000+ useful websites listed for developer, designer & marketers.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/profileme.png"}
-                liveLink={"https://profileme.dev"}
+                imgSrc={"/projects/png.png"}
+                liveLink={"https://indiemake.co"}
                 repoLink={"https://github.com/danielcranney/profileme.dev"}
                 stack={
                   <>
@@ -1176,7 +1171,9 @@ export default function Home({ publications }) {
                     />
                   </>
                 }
-              /> */}
+              />
+             
+              
             </div>
 
             {/* Other Projects header */}
